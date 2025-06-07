@@ -1,8 +1,8 @@
-name: Hello Flow
+name: Hello Flow Scheduled
 
 on: 
   schedule:  
-    - cron: '* * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   first-job:
